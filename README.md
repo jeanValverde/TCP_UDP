@@ -1,4 +1,28 @@
 
+Para Ejecutar el sistema.
+
+En cada terminar por separado 
+
+
+
+Para EL BOT 
+
+{PATH}\TCP_UDP> cd .\BOT_GATO\
+{PATH}\TCP_UDP\BOT_GATO> rm .\main.exe    #Puede saltar error en caso que el archivo main no este creado 
+{PATH}\TCP_UDP\BOT_GATO> go build main.go
+{PATH}\TCP_UDP\BOT_GATO> .\main.exe  
+
+
+Para el servidor 
+
+{PATH}\TCP_UDP> cd .\SERVIDOR\
+{PATH}\TCP_UDP\SERVIDOR> py .\main.py
+
+Para el cliente 
+
+{PATH}\TCP_UDP\CLIENTE> py .\main.py
+
+
 # UDP y TCP en Python y Go
 
 El tres en l ́ınea, o mejor conocido como gato, el juego que alguna vez todos hemos visto en alg ́un
@@ -53,3 +77,4 @@ juego. Para esto, se deben satisfacer las siguientes tareas
 * Debe terminar su ejecuci ́on cuando se lo indique el Servidor Intermediario.
 * El codigo de este programa debe estar escrito en Go.
 * Informar de intercambios de mensajes dentro de su consola, junto con la apertura y cierre de puertos.
+
